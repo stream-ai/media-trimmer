@@ -8,3 +8,19 @@ The silence trimming feature works by trimming everything from the beginning of 
 This utility doesn't change the original files, but it does create some temporary files and a new "output" directory where the processed files will go.
 
 New files created by this tool will be saved with the original filename plus `-trimmed.mp3` in the `./output` directory.
+
+## Install
+
+This script uses `ffmpeg`, an open-source comman-line tool for handling multimedia files.
+
+You can install ffmpeg on Ubuntu and Debian-based systems using the following command:
+
+```bash
+sudo apt-get install ffmpeg
+```
+
+On Red Hat and CentOS-based systems, you can use the following command:
+```bash
+sudo yum install ffmpeg
+```
+
