@@ -1,4 +1,4 @@
-#!/usr/bin/env sh
+#!/bin/bash
 
 # Create the output directory if it doesn't exist
 mkdir -p ./out
